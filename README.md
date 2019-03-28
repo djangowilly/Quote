@@ -3,11 +3,7 @@ By Wilfred Mutura Ngugi
 
 # Technologies Used
 
-1.HTML
-2.CSS
-3.JAVASCRIPT
-4.BOOTSTRAP
-5.JQUERY
+1.Angular CLI.
 # Requirements
 
 1.A running network'
