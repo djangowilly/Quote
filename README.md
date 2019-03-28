@@ -4,6 +4,7 @@ By Wilfred Mutura Ngugi
 # Technologies Used
 
 1.Angular CLI.
+
 # Requirements
 
 1.A running network'
