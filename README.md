@@ -10,7 +10,8 @@ By Wilfred Mutura Ngugi
 1.A running network'
 2.A good web browser which i prefer !Chrome Web browser! to any other browser.
 
-In order to use the web-app you just need to click on the link below and Booooom! here is the game.
+In order to use the web-app you just need to click on the link below....
+https://djangowilly.github.io/Quote/
 
 # Description
 
