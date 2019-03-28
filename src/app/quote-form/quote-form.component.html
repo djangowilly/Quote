@@ -1,0 +1,54 @@
+<div class="form-container">
+  <div class="row">
+
+      <form (ngSubmit)='submitQuote()' #goalForm='ngForm'>
+          <div class="form-group">
+
+            Display: {{newQuote.name  }} {{newQuote.author}}
+            <br>
+            <br>
+              <label for="name">Quote</label>
+              <br>
+              <input type="text" class="form-control" id="name" [(ngModel)]="newQuote.name" name="name" #name="ngModel" required>
+              <br>
+              
+          
+
+          <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+              <p> Type a Quote </p>              
+          </div>  
+              
+          </div>
+          <div class="form-group">
+
+              <label for="author">Author</label>
+              <br>
+              <input type="text" required class="form-control" id="author" [(ngModel)]="newQuote.author" name="name" required>
+             <br>
+
+              <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+                  <p> Enter the name of the Author</p>              
+              </div>  
+
+          </div>
+          <div class="form-group">
+
+              <label for="submitted">Submitted by</label>
+              <br>
+              <input type="text" required class="form-control" id="submitted" [(ngModel)]="newQuote.submitted" name="name" required>
+             <br>
+
+              <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+                  <p> Enter the name of the Submitter.</p>              
+              </div>  
+              <br>
+          </div>
+          <button type="submit" class="btn btn-success btn-lg">Submit Quote!</button>
+      </form>
+
+  </div>
+</div>
+
+
+
+
