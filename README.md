@@ -28,3 +28,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 The MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this website and associated documentation files , to deal in the website without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense , and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+https://colorlib.com/preview/#divisima
